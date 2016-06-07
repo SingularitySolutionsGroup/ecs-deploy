@@ -1,5 +1,4 @@
-FROM silintl/ubuntu:14.04
-MAINTAINER Phillip Shipley <phillip_shipley@sil.org>
+FROM ubuntu:14.04
 
 RUN apt-get update -y \
     && apt-get install -y \
